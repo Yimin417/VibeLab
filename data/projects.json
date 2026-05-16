@@ -1,0 +1,237 @@
+[
+  {
+    "id": "pixel-odyssey",
+    "title": "Pixel Odyssey",
+    "description": "一个像素风格的太空探索游戏，由 AI 协作构建",
+    "longDescription": "Pixel Odyssey 是一款受经典街机启发的太空探索游戏。玩家驾驶飞船穿越随机生成的星系，收集资源，对抗外星生物。整个游戏从概念到实现仅用了 72 小时，AI 辅助完成了游戏物理引擎、程序化地图生成和像素艺术风格的 UI 设计。",
+    "tools": ["Cursor", "Claude"],
+    "category": "Game",
+    "styles": ["Retro", "Dark Mode"],
+    "imageUrl": "https://picsum.photos/seed/pixel-odyssey/600/400",
+    "gallery": [
+      "https://picsum.photos/seed/pixel1/800/600",
+      "https://picsum.photos/seed/pixel2/800/600",
+      "https://picsum.photos/seed/pixel3/800/600"
+    ],
+    "demoUrl": "https://pixel-odyssey.vercel.app",
+    "repoUrl": "https://github.com/vibelab/pixel-odyssey",
+    "author": "CosmicCoder",
+    "createdAt": "2025-12-15",
+    "featured": true
+  },
+  {
+    "id": "flux-dashboard",
+    "title": "Flux Dashboard",
+    "description": "实时数据可视化仪表盘，采用赛博朋克风格",
+    "longDescription": "Flux Dashboard 是一个开源的数据可视化平台，支持实时数据流监控。项目使用 React 和 D3.js 构建，具有可拖拽的小组件系统、自定义图表类型和 WebSocket 实时更新。赛博朋克风格的霓虹配色和发光效果让数据监控变得极具未来感。",
+    "tools": ["Windsurf", "Copilot"],
+    "category": "Dashboard",
+    "styles": ["Cyberpunk", "Dark Mode"],
+    "imageUrl": "https://picsum.photos/seed/flux-dashboard/600/400",
+    "gallery": [
+      "https://picsum.photos/seed/flux1/800/600",
+      "https://picsum.photos/seed/flux2/800/600",
+      "https://picsum.photos/seed/flux3/800/600"
+    ],
+    "demoUrl": "https://flux-dash.vercel.app",
+    "repoUrl": "https://github.com/vibelab/flux-dashboard",
+    "author": "DataWizard",
+    "createdAt": "2025-11-28",
+    "featured": true
+  },
+  {
+    "id": "nebulab-saas",
+    "title": "Nebulab",
+    "description": "AI 驱动的团队协作 SaaS 平台",
+    "longDescription": "Nebulab 是一个面向远程团队的 AI 协作平台，集成了智能日程管理、自动化会议纪要和 AI 任务分配。平台采用微服务架构，前端使用 Next.js 构建，后端使用 Supabase 提供实时数据库和认证服务。Glassmorphism 设计风格让整个应用显得轻盈而现代。",
+    "tools": ["Cursor", "Bolt"],
+    "category": "SaaS",
+    "styles": ["Glassmorphism", "Minimal"],
+    "imageUrl": "https://picsum.photos/seed/nebulab/600/400",
+    "gallery": [
+      "https://picsum.photos/seed/nebula1/800/600",
+      "https://picsum.photos/seed/nebula2/800/600",
+      "https://picsum.photos/seed/nebula3/800/600"
+    ],
+    "demoUrl": "https://nebulab.app",
+    "repoUrl": "https://github.com/vibelab/nebulab",
+    "author": "TeamBuilder",
+    "createdAt": "2025-10-05",
+    "featured": true
+  },
+  {
+    "id": "brutal-blog",
+    "title": "Brutal Blog",
+    "description": "极简粗野主义个人博客，加载速度极快",
+    "longDescription": "Brutal Blog 是一个采用粗野主义设计哲学的极简博客平台。没有多余的装饰，纯文本排版，黑白配色，极速加载。使用 MDX 编写内容，支持代码高亮和数学公式。虽然外观原始，但内置了强大的全文搜索和 RSS 订阅功能。",
+    "tools": ["Replit", "Claude"],
+    "category": "Portfolio",
+    "styles": ["Brutalist", "Minimal"],
+    "imageUrl": "https://picsum.photos/seed/brutal-blog/600/400",
+    "gallery": [
+      "https://picsum.photos/seed/brutal1/800/600",
+      "https://picsum.photos/seed/brutal2/800/600"
+    ],
+    "demoUrl": "https://brutal.blog",
+    "repoUrl": "https://github.com/vibelab/brutal-blog",
+    "author": "RawType",
+    "createdAt": "2025-09-18",
+    "featured": false
+  },
+  {
+    "id": "synthwave-store",
+    "title": "Synthwave Store",
+    "description": "80 年代复古风格的电商落地页",
+    "longDescription": "Synthwave Store 是一个采用 80 年代合成器波风格的电商概念页面。紫色渐变背景、霓虹文字和复古字体营造出强烈的年代感。使用了 Three.js 创建了 3D 产品展示效果，Framer Motion 驱动流畅的页面过渡动画，Stripe 集成了完整的支付流程。",
+    "tools": ["Cursor", "v0"],
+    "category": "Landing Page",
+    "styles": ["Retro", "Gradient"],
+    "imageUrl": "https://picsum.photos/seed/synthwave/600/400",
+    "gallery": [
+      "https://picsum.photos/seed/synth1/800/600",
+      "https://picsum.photos/seed/synth2/800/600",
+      "https://picsum.photos/seed/synth3/800/600"
+    ],
+    "demoUrl": "https://synthwave-store.vercel.app",
+    "repoUrl": "https://github.com/vibelab/synthwave-store",
+    "author": "RetroVibes",
+    "createdAt": "2025-08-22",
+    "featured": true
+  },
+  {
+    "id": "neuro-todo",
+    "title": "NeuroTodo",
+    "description": "新拟态风格的智能待办事项应用",
+    "longDescription": "NeuroTodo 使用新拟态设计（Neumorphism）打造了一个与众不同的待办事项管理工具。柔和的阴影和凸起效果让 UI 元素仿佛浮在界面上。集成了 AI 优先级排序、自然语言输入和跨设备同步功能。PWA 支持让它可以像原生应用一样安装使用。",
+    "tools": ["Windsurf"],
+    "category": "Tool",
+    "styles": ["Neumorphism", "Minimal"],
+    "imageUrl": "https://picsum.photos/seed/neuro-todo/600/400",
+    "gallery": [
+      "https://picsum.photos/seed/neuro1/800/600",
+      "https://picsum.photos/seed/neuro2/800/600"
+    ],
+    "demoUrl": "https://neurotodo.vercel.app",
+    "repoUrl": "https://github.com/vibelab/neurotodo",
+    "author": "SoftUI",
+    "createdAt": "2025-07-14",
+    "featured": false
+  },
+  {
+    "id": "aquamail",
+    "title": "AquaMail",
+    "description": "Glassmorphism 风格的邮件客户端界面",
+    "longDescription": "AquaMail 重新定义了邮件客户端的视觉体验。采用玻璃态设计，半透明背景配合模糊效果营造出水面般的视觉感受。支持多邮箱管理、智能分类和快速回复。虽然是概念设计，但完整实现了邮件的收发和搜索功能。",
+    "tools": ["Copilot", "Claude"],
+    "category": "AI Application",
+    "styles": ["Glassmorphism", "Gradient"],
+    "imageUrl": "https://picsum.photos/seed/aquamail/600/400",
+    "gallery": [
+      "https://picsum.photos/seed/aqua1/800/600",
+      "https://picsum.photos/seed/aqua2/800/600",
+      "https://picsum.photos/seed/aqua3/800/600"
+    ],
+    "demoUrl": "https://aquamail.vercel.app",
+    "repoUrl": "https://github.com/vibelab/aquamail",
+    "author": "GlassDesigner",
+    "createdAt": "2025-06-30",
+    "featured": false
+  },
+  {
+    "id": "cyber-chat",
+    "title": "CyberChat",
+    "description": "赛博朋克主题的实时聊天应用",
+    "longDescription": "CyberChat 将赛博朋克美学带入了即时通讯。深色背景上的霓虹色消息气泡、终端风格的输入框和粒子背景动画营造出黑客帝国的氛围。底层使用 WebSocket 实现实时消息传递，支持频道创建、文件分享和消息加密。",
+    "tools": ["Cursor", "Replit"],
+    "category": "AI Application",
+    "styles": ["Cyberpunk", "Dark Mode"],
+    "imageUrl": "https://picsum.photos/seed/cyber-chat/600/400",
+    "gallery": [
+      "https://picsum.photos/seed/cyber1/800/600",
+      "https://picsum.photos/seed/cyber2/800/600"
+    ],
+    "demoUrl": "https://cyberchat.vercel.app",
+    "repoUrl": "https://github.com/vibelab/cyberchat",
+    "author": "NeonCoder",
+    "createdAt": "2025-06-10",
+    "featured": true
+  },
+  {
+    "id": "gradient-lab",
+    "title": "Gradient Lab",
+    "description": "渐变色彩生成器与调色板管理工具",
+    "longDescription": "Gradient Lab 是一个面向设计师和开发者的渐变色彩工具。支持线性、径向和锥形渐变预览，可导出为 CSS、Tailwind 配置或 SVG。内置了数百个精心调配的渐变预设，并提供 AI 配色建议。界面采用自身展示的渐变配色作为背景。",
+    "tools": ["Bolt", "v0"],
+    "category": "Tool",
+    "styles": ["Gradient", "Minimal"],
+    "imageUrl": "https://picsum.photos/seed/gradient-lab/600/400",
+    "gallery": [
+      "https://picsum.photos/seed/grad1/800/600",
+      "https://picsum.photos/seed/grad2/800/600",
+      "https://picsum.photos/seed/grad3/800/600"
+    ],
+    "demoUrl": "https://gradient-lab.vercel.app",
+    "repoUrl": "https://github.com/vibelab/gradient-lab",
+    "author": "ColorMaster",
+    "createdAt": "2025-05-20",
+    "featured": false
+  },
+  {
+    "id": "minimal-portfolio",
+    "title": "Minimal Portfolio",
+    "description": "极简摄影师作品集，注重留白与排版",
+    "longDescription": "为一位虚构摄影师打造的极简作品集网站。大量留白、精准的排版比例和流畅的图片懒加载是设计的核心。使用 Next.js 的 Image 组件优化图片性能，Framer Motion 实现淡入过渡效果。支持暗色和亮色两种主题模式，但极简始终是核心调性。",
+    "tools": ["Claude", "Copilot"],
+    "category": "Portfolio",
+    "styles": ["Minimal", "Dark Mode"],
+    "imageUrl": "https://picsum.photos/seed/minimal-portfolio/600/400",
+    "gallery": [
+      "https://picsum.photos/seed/min1/800/600",
+      "https://picsum.photos/seed/min2/800/600"
+    ],
+    "demoUrl": "https://minimal-folio.vercel.app",
+    "repoUrl": "https://github.com/vibelab/minimal-portfolio",
+    "author": "CleanLines",
+    "createdAt": "2025-04-12",
+    "featured": false
+  },
+  {
+    "id": "neon-runner",
+    "title": "Neon Runner",
+    "description": "Web 端无限跑酷小游戏",
+    "longDescription": "Neon Runner 是一个使用 Canvas API 和 Web Audio 构建的无尽跑酷游戏。玩家控制一个发光角色在霓虹网格上奔跑、跳跃和滑铲以避开障碍物。AI 辅助生成了程序化关卡、粒子特效和合成波背景音乐。纯前端实现，无需后端。",
+    "tools": ["Cursor", "Bolt"],
+    "category": "Game",
+    "styles": ["Cyberpunk", "Retro"],
+    "imageUrl": "https://picsum.photos/seed/neon-runner/600/400",
+    "gallery": [
+      "https://picsum.photos/seed/runner1/800/600",
+      "https://picsum.photos/seed/runner2/800/600",
+      "https://picsum.photos/seed/runner3/800/600"
+    ],
+    "demoUrl": "https://neon-runner.vercel.app",
+    "repoUrl": "https://github.com/vibelab/neon-runner",
+    "author": "GameViber",
+    "createdAt": "2025-03-08",
+    "featured": true
+  },
+  {
+    "id": "nook-planner",
+    "title": "Nook Planner",
+    "description": "移动端优先的旅行规划渐进式 Web 应用",
+    "longDescription": "Nook Planner 是一个专为移动端设计的旅行行程规划器。用户可以拖拽创建日程、添加景点标注和预算跟踪。PWA 技术使其支持离线访问，Service Worker 缓存地图数据和行程信息。AI 根据用户偏好自动推荐目的地和路线。界面采用软萌的插画风格。",
+    "tools": ["Windsurf", "Replit"],
+    "category": "Mobile App",
+    "styles": ["Minimal", "Gradient"],
+    "imageUrl": "https://picsum.photos/seed/nook-planner/600/400",
+    "gallery": [
+      "https://picsum.photos/seed/nook1/800/600",
+      "https://picsum.photos/seed/nook2/800/600"
+    ],
+    "demoUrl": "https://nook-planner.vercel.app",
+    "repoUrl": "https://github.com/vibelab/nook-planner",
+    "author": "TravelBug",
+    "createdAt": "2025-02-14",
+    "featured": false
+  }
+]
