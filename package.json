@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "cf:build": "npx @opennextjs/cloudflare build",
+    "cf:start": "npx @opennextjs/cloudflare preview",
     "start": "next start",
     "lint": "next lint"
   },
@@ -24,6 +26,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.19.10",
     "@types/node": "^20.17.10",
     "@types/react": "^18.3.17",
     "@types/react-dom": "^18.3.5",
