@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 };
 
 interface HomePageProps {
-  searchParams: Record<string, string | string[] | undefined>;
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
 }
 
 function parseSearchParams(
@@ -57,9 +57,10 @@ function getTimePeriod(sp: Record<string, string | string[] | undefined>): TimeP
 }
 
 async function HomeContent({ searchParams }: HomePageProps) {
-  const filters = parseSearchParams(searchParams);
-  const sort = getSortOption(searchParams);
-  const period = getTimePeriod(searchParams);
+  const sp = await searchParams;
+  const filters = parseSearchParams(sp);
+  const sort = getSortOption(sp);
+  const period = getTimePeriod(sp);
   const allProjects = getAllProjects();
   const filtered = filterProjects(filters);
   const featured = getFeaturedProjects();

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 
 export const runtime = "edge";
-import { notFound } from "next/navigation";
 import { getProjectById } from "@/lib/data";
 import ProjectDetail from "@/components/project/ProjectDetail";
 import LikeButton from "@/components/project/LikeButton";
@@ -9,11 +8,14 @@ import CommentSection from "@/components/project/CommentSection";
 import ErrorState from "@/components/ui/ErrorState";
 
 interface ProjectPageProps {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
-export function generateMetadata({ params }: ProjectPageProps): Metadata {
-  const project = getProjectById(params.id);
+export async function generateMetadata({
+  params,
+}: ProjectPageProps): Promise<Metadata> {
+  const { id } = await params;
+  const project = getProjectById(id);
   if (!project) {
     return { title: "项目未找到" };
   }
@@ -35,12 +37,13 @@ export function generateMetadata({ params }: ProjectPageProps): Metadata {
   };
 }
 
-export default function ProjectPage({ params }: ProjectPageProps) {
-  const project = getProjectById(params.id);
+export default async function ProjectPage({ params }: ProjectPageProps) {
+  const { id } = await params;
+  const project = getProjectById(id);
 
   if (!project) {
     return (
-      <ErrorState message={`项目 "${params.id}" 不存在，请检查链接是否正确。`} />
+      <ErrorState message={`项目 "${id}" 不存在，请检查链接是否正确。`} />
     );
   }
 
