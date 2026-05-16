@@ -1,6 +1,0 @@
-# wrangler.toml
-name = 'vibecodingshow'
-compatibility_date = '2024-12-30'
-
-[env.production]
-vars = { }
