@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getSupabase } from "@/lib/supabase";
 
+export const runtime = "edge";
+
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const projectIds = searchParams.get("projectIds");

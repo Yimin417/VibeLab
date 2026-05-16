@@ -1,5 +1,7 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
+
+export const runtime = "edge";
 import ProjectGridWithPagination from "@/components/project/ProjectGridWithPagination";
 import ProjectFilters from "@/components/project/ProjectFilters";
 import SearchBar from "@/components/project/SearchBar";

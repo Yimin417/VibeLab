@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { getAllProjects } from "@/lib/data";
 
+export const runtime = "edge";
+
 const BASE_URL = "https://vibe-coding-show.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {

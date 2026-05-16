@@ -3,6 +3,8 @@ import { getSupabase } from "@/lib/supabase";
 import projectsData from "@/data/projects.json";
 import type { Project } from "@/types";
 
+export const runtime = "edge";
+
 const projects: Project[] = projectsData as Project[];
 
 export async function GET(request: NextRequest) {

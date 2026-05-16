@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+
+export const runtime = "edge";
 import { notFound } from "next/navigation";
 import { getProjectById } from "@/lib/data";
 import ProjectDetail from "@/components/project/ProjectDetail";
