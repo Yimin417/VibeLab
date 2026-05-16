@@ -8,6 +8,8 @@ const SORT_OPTIONS: { value: SortOption; label: string }[] = [
   { value: "newest", label: "最新优先" },
   { value: "oldest", label: "最早优先" },
   { value: "featured", label: "精选优先" },
+  { value: "most-liked", label: "最多喜欢" },
+  { value: "most-commented", label: "最多评论" },
   { value: "alpha", label: "A-Z" },
 ];
 

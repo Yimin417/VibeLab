@@ -8,7 +8,7 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <span className="text-2xl font-bold gradient-text">
-              VibeLab
+              VibeCodingShow
             </span>
             <span className="rounded-full border border-primary/30 bg-primary/10 px-2 py-0.5 text-xs text-primary">
               Beta

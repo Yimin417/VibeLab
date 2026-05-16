@@ -51,7 +51,9 @@ export function getFeaturedProjects(): Project[] {
 
 export function sortProjects(
   projectList: Project[],
-  sort: SortOption
+  sort: SortOption,
+  likeCounts?: Record<string, number>,
+  commentCounts?: Record<string, number>
 ): Project[] {
   const sorted = [...projectList];
   switch (sort) {
@@ -72,9 +74,46 @@ export function sortProjects(
       });
     case "alpha":
       return sorted.sort((a, b) => a.title.localeCompare(b.title));
+    case "most-liked":
+      return sorted.sort(
+        (a, b) => (likeCounts?.[b.id] || 0) - (likeCounts?.[a.id] || 0)
+      );
+    case "most-commented":
+      return sorted.sort(
+        (a, b) =>
+          (commentCounts?.[b.id] || 0) - (commentCounts?.[a.id] || 0)
+      );
     default:
       return sorted;
   }
+}
+
+export type TimePeriod = import("@/types").TimePeriod;
+
+export function filterByTimePeriod(
+  projectList: Project[],
+  period: TimePeriod
+): Project[] {
+  if (period === "all") return projectList;
+
+  const now = new Date();
+  let startDate: Date;
+
+  switch (period) {
+    case "today":
+      startDate = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      break;
+    case "week":
+      startDate = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+      break;
+    case "month":
+      startDate = new Date(now.getFullYear(), now.getMonth(), 1);
+      break;
+    default:
+      return projectList;
+  }
+
+  return projectList.filter((p) => new Date(p.createdAt) >= startDate);
 }
 
 export function paginateProjects(

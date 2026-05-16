@@ -28,4 +28,13 @@ export interface FilterState {
   search: string;
 }
 
-export type SortOption = "newest" | "oldest" | "featured" | "alpha";
+export type SortOption = "newest" | "oldest" | "featured" | "alpha" | "most-liked" | "most-commented";
+
+export type TimePeriod = "today" | "week" | "month" | "all";
+
+export interface Comment {
+  id: string;
+  author: string;
+  content: string;
+  createdAt: string;
+}

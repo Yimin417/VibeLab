@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://vibe-lab-three.vercel.app/sitemap.xml",
+    sitemap: "https://vibe-coding-show.vercel.app/sitemap.xml",
   };
 }

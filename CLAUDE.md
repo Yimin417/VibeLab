@@ -1,7 +1,7 @@
-# VibeLab - Claude Code 开发指南
+# VibeCodingShow - Claude Code 开发指南
 
 ## 项目概述
-VibeLab 是一个 Vibe Coding 作品收录网站，展示使用 AI 编程工具创建的作品。
+VibeCodingShow 是一个 Vibe Coding 作品收录网站，展示使用 AI 编程工具创建的作品。
 
 ## 常用命令
 ```bash

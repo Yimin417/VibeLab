@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllProjects } from "@/lib/data";
 
-const BASE_URL = "https://vibe-lab-three.vercel.app";
+const BASE_URL = "https://vibe-coding-show.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const projects = getAllProjects();

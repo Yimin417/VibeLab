@@ -1,12 +1,12 @@
 import type { Project } from "@/types";
 
-const BASE_URL = "https://vibe-lab-three.vercel.app";
+const BASE_URL = "https://vibe-coding-show.vercel.app";
 
 export function generateCollectionPageJsonLd(projects: Project[]) {
   return {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "VibeLab - Vibe Coding 作品收录",
+    name: "VibeCodingShow - Vibe Coding 作品收录",
     description:
       "发现最酷的 Vibe Coding 作品 —— 使用 Cursor, Claude, Copilot 等 AI 工具创作的网站、应用、游戏合集。",
     url: BASE_URL,

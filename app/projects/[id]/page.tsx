@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getProjectById } from "@/lib/data";
 import ProjectDetail from "@/components/project/ProjectDetail";
+import LikeButton from "@/components/project/LikeButton";
+import CommentSection from "@/components/project/CommentSection";
 import ErrorState from "@/components/ui/ErrorState";
 
 interface ProjectPageProps {
@@ -40,5 +42,15 @@ export default function ProjectPage({ params }: ProjectPageProps) {
     );
   }
 
-  return <ProjectDetail project={project} />;
+  return (
+    <>
+      <ProjectDetail project={project} />
+      <div className="mx-auto max-w-6xl px-4 pb-12 sm:px-6 lg:px-8 space-y-8">
+        <div className="flex items-center justify-center">
+          <LikeButton projectId={project.id} />
+        </div>
+        <CommentSection projectId={project.id} />
+      </div>
+    </>
+  );
 }

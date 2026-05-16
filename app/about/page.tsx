@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "关于 VibeLab",
-  description: "了解 Vibe Coding 和 VibeLab 的使命 —— 收录使用 AI 编程工具创作的作品。",
+  title: "关于 VibeCodingShow",
+  description: "了解 Vibe Coding 和 VibeCodingShow 的使命 —— 收录使用 AI 编程工具创作的作品。",
 };
 
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
       <h1 className="text-3xl font-bold tracking-tight">
-        <span className="gradient-text">关于 VibeLab</span>
+        <span className="gradient-text">关于 VibeCodingShow</span>
       </h1>
 
       <section className="mt-8 space-y-6 text-text-secondary">
@@ -29,7 +29,7 @@ export default function AboutPage() {
             我们的使命
           </h2>
           <p>
-            VibeLab 致力于收录和展示优秀的 Vibe Coding 作品。我们相信，AI
+            VibeCodingShow 致力于收录和展示优秀的 Vibe Coding 作品。我们相信，AI
             辅助编程正在改变软件开发的方式，而这些作品正是这场变革的最好见证。
             无论你是有经验的开发者还是刚开始尝试的新手，都能在这里找到灵感。
           </p>

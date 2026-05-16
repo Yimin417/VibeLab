@@ -1,4 +1,4 @@
-# VibeLab
+# VibeCodingShow
 
 Vibe Coding 作品收录网站 —— 发现使用 AI 编程工具创作的最酷作品。
 

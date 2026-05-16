@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
+import LikeButton from "@/components/project/LikeButton";
 import type { Project } from "@/types";
 
 interface ProjectCardProps {
@@ -40,9 +41,14 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
           )}
         </div>
         <div className="p-4">
-          <h3 className="font-mono text-lg font-semibold text-text-primary truncate">
-            {project.title}
-          </h3>
+          <div className="flex items-start justify-between gap-2">
+            <h3 className="font-mono text-lg font-semibold text-text-primary truncate">
+              {project.title}
+            </h3>
+            <div className="shrink-0" onClick={(e) => e.preventDefault()}>
+              <LikeButton projectId={project.id} />
+            </div>
+          </div>
           <p className="mt-1 text-sm text-text-secondary line-clamp-2">
             {project.description}
           </p>

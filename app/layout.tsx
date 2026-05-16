@@ -18,10 +18,10 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vibe-lab-three.vercel.app"),
+  metadataBase: new URL("https://vibe-coding-show.vercel.app"),
   title: {
-    default: "VibeLab - Vibe Coding 作品收录",
-    template: "%s | VibeLab",
+    default: "VibeCodingShow - Vibe Coding 作品收录",
+    template: "%s | VibeCodingShow",
   },
   description:
     "发现最酷的 Vibe Coding 作品 —— 使用 Cursor, Claude, Copilot 等 AI 工具创作的网站、应用、游戏合集。",
@@ -34,15 +34,15 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: "website",
-    siteName: "VibeLab",
-    title: "VibeLab - Vibe Coding 作品收录",
+    siteName: "VibeCodingShow",
+    title: "VibeCodingShow - Vibe Coding 作品收录",
     description:
       "发现最酷的 Vibe Coding 作品 —— 使用 Cursor, Claude, Copilot 等 AI 工具创作的网站、应用、游戏合集。",
     locale: "zh_CN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "VibeLab - Vibe Coding 作品收录",
+    title: "VibeCodingShow - Vibe Coding 作品收录",
     description:
       "发现最酷的 Vibe Coding 作品 —— 使用 Cursor, Claude, Copilot 等 AI 工具创作的网站、应用、游戏合集。",
   },

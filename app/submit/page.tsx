@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "提交作品",
-  description: "提交你的 Vibe Coding 作品到 VibeLab，让更多人看到你的创作。",
+  description: "提交你的 Vibe Coding 作品到 VibeCodingShow，让更多人看到你的创作。",
 };
 
 const JSON_TEMPLATE = `{
@@ -34,7 +34,7 @@ export default function SubmitPage() {
 
       <section className="mt-8 space-y-6 text-text-secondary">
         <p>
-          想要让你的作品出现在 VibeLab 上？请通过 GitHub Issue 提交，
+          想要让你的作品出现在 VibeCodingShow 上？请通过 GitHub Issue 提交，
           我们会尽快审核并收录。
         </p>
 
@@ -45,7 +45,7 @@ export default function SubmitPage() {
           <ol className="list-decimal space-y-3 pl-5">
             <li>
               <a
-                href="https://github.com/vibelab/vibelab/issues/new?title=作品提交:%20你的项目名称&labels=submission"
+                href="https://github.com/vibecodingshow/vibecodingshow/issues/new?title=作品提交:%20你的项目名称&labels=submission"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary underline hover:text-primary-hover"
@@ -55,7 +55,7 @@ export default function SubmitPage() {
             </li>
             <li>将下方 JSON 模板复制到 Issue 中并填写你的项目信息</li>
             <li>提交 Issue 后将进入人工审核流程</li>
-            <li>审核通过后你的作品将出现在 VibeLab 上</li>
+            <li>审核通过后你的作品将出现在 VibeCodingShow 上</li>
           </ol>
         </div>
 
