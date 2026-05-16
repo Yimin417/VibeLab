@@ -1,11 +1,12 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
-import ProjectGrid from "@/components/project/ProjectGrid";
+import ProjectGridWithPagination from "@/components/project/ProjectGridWithPagination";
 import ProjectFilters from "@/components/project/ProjectFilters";
 import SearchBar from "@/components/project/SearchBar";
+import SortSelect from "@/components/project/SortSelect";
 import EmptyState from "@/components/project/EmptyState";
-import { getAllProjects, filterProjects, getFeaturedProjects } from "@/lib/data";
-import type { FilterState } from "@/types";
+import { getAllProjects, filterProjects, getFeaturedProjects, sortProjects } from "@/lib/data";
+import type { FilterState, SortOption } from "@/types";
 import { ProjectGridSkeleton } from "@/components/project/ProjectCardSkeleton";
 
 export const metadata: Metadata = {
@@ -33,8 +34,17 @@ function parseSearchParams(
   };
 }
 
+function getSortOption(sp: Record<string, string | string[] | undefined>): SortOption {
+  const sort = sp.sort;
+  if (typeof sort === "string" && ["newest", "oldest", "featured", "alpha"].includes(sort)) {
+    return sort as SortOption;
+  }
+  return "newest";
+}
+
 function HomeContent({ searchParams }: HomePageProps) {
   const filters = parseSearchParams(searchParams);
+  const sort = getSortOption(searchParams);
   const allProjects = getAllProjects();
   const filtered = filterProjects(filters);
   const featured = getFeaturedProjects();
@@ -45,7 +55,8 @@ function HomeContent({ searchParams }: HomePageProps) {
     filters.styles.length > 0 ||
     filters.search !== "";
 
-  const displayProjects = hasActiveFilters ? filtered : allProjects;
+  const sourceProjects = hasActiveFilters ? filtered : allProjects;
+  const displayProjects = sortProjects(sourceProjects, sort);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
@@ -69,14 +80,19 @@ function HomeContent({ searchParams }: HomePageProps) {
         <Suspense fallback={null}>
           <SearchBar />
         </Suspense>
-        <Suspense fallback={null}>
-          <ProjectFilters />
-        </Suspense>
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <Suspense fallback={null}>
+            <ProjectFilters />
+          </Suspense>
+          <Suspense fallback={null}>
+            <SortSelect />
+          </Suspense>
+        </div>
       </div>
 
       {/* Results */}
       {displayProjects.length > 0 ? (
-        <ProjectGrid projects={displayProjects} />
+        <ProjectGridWithPagination projects={displayProjects} />
       ) : (
         <EmptyState hasFilters={hasActiveFilters} />
       )}

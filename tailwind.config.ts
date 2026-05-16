@@ -9,15 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#0a0a0f",
-        "card-bg": "#161622",
-        primary: "#8b5cf6",
-        "primary-hover": "#7c3aed",
-        secondary: "#06b6d4",
-        "secondary-hover": "#0891b2",
-        "text-primary": "#f1f1f3",
-        "text-secondary": "#a1a1aa",
-        "border-color": "#2a2a3a",
+        background: "var(--background)",
+        "card-bg": "var(--card-bg)",
+        primary: "var(--primary)",
+        "primary-hover": "var(--primary-hover)",
+        secondary: "var(--secondary)",
+        "secondary-hover": "var(--secondary-hover)",
+        "text-primary": "var(--text-primary)",
+        "text-secondary": "var(--text-secondary)",
+        "border-color": "var(--border-color)",
       },
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],

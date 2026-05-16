@@ -7,11 +7,11 @@
     "tools": ["Cursor", "Claude"],
     "category": "Game",
     "styles": ["Retro", "Dark Mode"],
-    "imageUrl": "https://picsum.photos/seed/pixel-odyssey/600/400",
+    "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=600&h=400&fit=crop",
     "gallery": [
-      "https://picsum.photos/seed/pixel1/800/600",
-      "https://picsum.photos/seed/pixel2/800/600",
-      "https://picsum.photos/seed/pixel3/800/600"
+      "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1504333639802-53dbac27c7e9?w=800&h=600&fit=crop"
     ],
     "demoUrl": "https://pixel-odyssey.vercel.app",
     "repoUrl": "https://github.com/vibelab/pixel-odyssey",
@@ -27,11 +27,11 @@
     "tools": ["Windsurf", "Copilot"],
     "category": "Dashboard",
     "styles": ["Cyberpunk", "Dark Mode"],
-    "imageUrl": "https://picsum.photos/seed/flux-dashboard/600/400",
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
     "gallery": [
-      "https://picsum.photos/seed/flux1/800/600",
-      "https://picsum.photos/seed/flux2/800/600",
-      "https://picsum.photos/seed/flux3/800/600"
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=600&fit=crop"
     ],
     "demoUrl": "https://flux-dash.vercel.app",
     "repoUrl": "https://github.com/vibelab/flux-dashboard",
@@ -47,11 +47,11 @@
     "tools": ["Cursor", "Bolt"],
     "category": "SaaS",
     "styles": ["Glassmorphism", "Minimal"],
-    "imageUrl": "https://picsum.photos/seed/nebulab/600/400",
+    "imageUrl": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=600&h=400&fit=crop",
     "gallery": [
-      "https://picsum.photos/seed/nebula1/800/600",
-      "https://picsum.photos/seed/nebula2/800/600",
-      "https://picsum.photos/seed/nebula3/800/600"
+      "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop"
     ],
     "demoUrl": "https://nebulab.app",
     "repoUrl": "https://github.com/vibelab/nebulab",
@@ -67,10 +67,10 @@
     "tools": ["Replit", "Claude"],
     "category": "Portfolio",
     "styles": ["Brutalist", "Minimal"],
-    "imageUrl": "https://picsum.photos/seed/brutal-blog/600/400",
+    "imageUrl": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&h=400&fit=crop",
     "gallery": [
-      "https://picsum.photos/seed/brutal1/800/600",
-      "https://picsum.photos/seed/brutal2/800/600"
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=600&fit=crop"
     ],
     "demoUrl": "https://brutal.blog",
     "repoUrl": "https://github.com/vibelab/brutal-blog",
@@ -86,11 +86,11 @@
     "tools": ["Cursor", "v0"],
     "category": "Landing Page",
     "styles": ["Retro", "Gradient"],
-    "imageUrl": "https://picsum.photos/seed/synthwave/600/400",
+    "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&h=400&fit=crop",
     "gallery": [
-      "https://picsum.photos/seed/synth1/800/600",
-      "https://picsum.photos/seed/synth2/800/600",
-      "https://picsum.photos/seed/synth3/800/600"
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1550684376-efcbd6e3f031?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1579547621113-e4bb2a19bdd6?w=800&h=600&fit=crop"
     ],
     "demoUrl": "https://synthwave-store.vercel.app",
     "repoUrl": "https://github.com/vibelab/synthwave-store",
@@ -106,10 +106,10 @@
     "tools": ["Windsurf"],
     "category": "Tool",
     "styles": ["Neumorphism", "Minimal"],
-    "imageUrl": "https://picsum.photos/seed/neuro-todo/600/400",
+    "imageUrl": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop",
     "gallery": [
-      "https://picsum.photos/seed/neuro1/800/600",
-      "https://picsum.photos/seed/neuro2/800/600"
+      "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?w=800&h=600&fit=crop"
     ],
     "demoUrl": "https://neurotodo.vercel.app",
     "repoUrl": "https://github.com/vibelab/neurotodo",
@@ -125,11 +125,11 @@
     "tools": ["Copilot", "Claude"],
     "category": "AI Application",
     "styles": ["Glassmorphism", "Gradient"],
-    "imageUrl": "https://picsum.photos/seed/aquamail/600/400",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop",
     "gallery": [
-      "https://picsum.photos/seed/aqua1/800/600",
-      "https://picsum.photos/seed/aqua2/800/600",
-      "https://picsum.photos/seed/aqua3/800/600"
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?w=800&h=600&fit=crop"
     ],
     "demoUrl": "https://aquamail.vercel.app",
     "repoUrl": "https://github.com/vibelab/aquamail",
@@ -145,10 +145,10 @@
     "tools": ["Cursor", "Replit"],
     "category": "AI Application",
     "styles": ["Cyberpunk", "Dark Mode"],
-    "imageUrl": "https://picsum.photos/seed/cyber-chat/600/400",
+    "imageUrl": "https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?w=600&h=400&fit=crop",
     "gallery": [
-      "https://picsum.photos/seed/cyber1/800/600",
-      "https://picsum.photos/seed/cyber2/800/600"
+      "https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=600&fit=crop"
     ],
     "demoUrl": "https://cyberchat.vercel.app",
     "repoUrl": "https://github.com/vibelab/cyberchat",
@@ -164,11 +164,11 @@
     "tools": ["Bolt", "v0"],
     "category": "Tool",
     "styles": ["Gradient", "Minimal"],
-    "imageUrl": "https://picsum.photos/seed/gradient-lab/600/400",
+    "imageUrl": "https://images.unsplash.com/photo-1614850523459-c2c4c14e7bf5?w=600&h=400&fit=crop",
     "gallery": [
-      "https://picsum.photos/seed/grad1/800/600",
-      "https://picsum.photos/seed/grad2/800/600",
-      "https://picsum.photos/seed/grad3/800/600"
+      "https://images.unsplash.com/photo-1614850523459-c2c4c14e7bf5?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?w=800&h=600&fit=crop"
     ],
     "demoUrl": "https://gradient-lab.vercel.app",
     "repoUrl": "https://github.com/vibelab/gradient-lab",
@@ -184,10 +184,10 @@
     "tools": ["Claude", "Copilot"],
     "category": "Portfolio",
     "styles": ["Minimal", "Dark Mode"],
-    "imageUrl": "https://picsum.photos/seed/minimal-portfolio/600/400",
+    "imageUrl": "https://images.unsplash.com/photo-1493246507139-91e8fad9e5db?w=600&h=400&fit=crop",
     "gallery": [
-      "https://picsum.photos/seed/min1/800/600",
-      "https://picsum.photos/seed/min2/800/600"
+      "https://images.unsplash.com/photo-1493246507139-91e8fad9e5db?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1482192505345-5655af888cc4?w=800&h=600&fit=crop"
     ],
     "demoUrl": "https://minimal-folio.vercel.app",
     "repoUrl": "https://github.com/vibelab/minimal-portfolio",
@@ -203,11 +203,11 @@
     "tools": ["Cursor", "Bolt"],
     "category": "Game",
     "styles": ["Cyberpunk", "Retro"],
-    "imageUrl": "https://picsum.photos/seed/neon-runner/600/400",
+    "imageUrl": "https://images.unsplash.com/photo-1579374004512-4597194c3e12?w=600&h=400&fit=crop",
     "gallery": [
-      "https://picsum.photos/seed/runner1/800/600",
-      "https://picsum.photos/seed/runner2/800/600",
-      "https://picsum.photos/seed/runner3/800/600"
+      "https://images.unsplash.com/photo-1579374004512-4597194c3e12?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1552820728-8b83bb6b2cf0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop"
     ],
     "demoUrl": "https://neon-runner.vercel.app",
     "repoUrl": "https://github.com/vibelab/neon-runner",
@@ -223,15 +223,151 @@
     "tools": ["Windsurf", "Replit"],
     "category": "Mobile App",
     "styles": ["Minimal", "Gradient"],
-    "imageUrl": "https://picsum.photos/seed/nook-planner/600/400",
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb04e80428?w=600&h=400&fit=crop",
     "gallery": [
-      "https://picsum.photos/seed/nook1/800/600",
-      "https://picsum.photos/seed/nook2/800/600"
+      "https://images.unsplash.com/photo-1488646953014-85cb04e80428?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=600&fit=crop"
     ],
     "demoUrl": "https://nook-planner.vercel.app",
     "repoUrl": "https://github.com/vibelab/nook-planner",
     "author": "TravelBug",
     "createdAt": "2025-02-14",
+    "featured": false
+  },
+  {
+    "id": "void-editor",
+    "title": "Void Editor",
+    "description": "极简 Markdown 编辑器，实时预览与 AI 辅助写作",
+    "longDescription": "Void Editor 是一款专注于写作体验的 Markdown 编辑器。采用分屏设计，左侧编辑、右侧实时预览。集成了 AI 写作助手，可以续写、润色和翻译文本。支持多种主题配色、专注模式和打字机音效。使用 TipTap 编辑器框架和 OpenAI API 构建。",
+    "tools": ["Cursor", "Claude"],
+    "category": "Tool",
+    "styles": ["Minimal", "Dark Mode"],
+    "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=600&fit=crop"
+    ],
+    "demoUrl": "https://void-editor.vercel.app",
+    "repoUrl": "https://github.com/vibelab/void-editor",
+    "author": "TypeSmith",
+    "createdAt": "2026-01-08",
+    "featured": true
+  },
+  {
+    "id": "crystal-dash",
+    "title": "Crystal Dash",
+    "description": "Glassmorphism 风格的电商后台管理面板",
+    "longDescription": "Crystal Dash 是一个采用玻璃态设计的电商后台管理系统。涵盖订单管理、库存追踪、用户分析和营收报表等模块。毛玻璃卡片配合柔和的渐变色彩，让数据密集的后台界面也变得赏心悦目。数据可视化使用 Chart.js，状态管理采用 Zustand。",
+    "tools": ["Windsurf", "v0"],
+    "category": "Dashboard",
+    "styles": ["Glassmorphism", "Gradient"],
+    "imageUrl": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&h=400&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop"
+    ],
+    "demoUrl": "https://crystal-dash.vercel.app",
+    "repoUrl": "https://github.com/vibelab/crystal-dash",
+    "author": "PixelPusher",
+    "createdAt": "2026-01-22",
+    "featured": true
+  },
+  {
+    "id": "lumina-landing",
+    "title": "Lumina",
+    "description": "AI SaaS 产品落地页，渐变配色与动态粒子背景",
+    "longDescription": "Lumina 是一款虚构 AI 图像生成工具的营销落地页。使用 Next.js 和 Framer Motion 构建，页面包含动态粒子背景、滚动视差效果和流畅的页面过渡。渐变霓虹配色展现产品的前沿科技感，精心设计的 CTA 区域有效提升转化率。",
+    "tools": ["Cursor", "Lovable"],
+    "category": "Landing Page",
+    "styles": ["Gradient", "Cyberpunk"],
+    "imageUrl": "https://images.unsplash.com/photo-1579547621113-e4bb2a19bdd6?w=600&h=400&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1579547621113-e4bb2a19bdd6?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=800&h=600&fit=crop"
+    ],
+    "demoUrl": "https://lumina-landing.vercel.app",
+    "repoUrl": "https://github.com/vibelab/lumina",
+    "author": "LightCaster",
+    "createdAt": "2026-02-05",
+    "featured": false
+  },
+  {
+    "id": "retro-board",
+    "title": "Retro Board",
+    "description": "像素风格的在线白板协作工具",
+    "longDescription": "Retro Board 将复古像素美学带入了在线协作白板。支持多人实时绘图、便签贴纸和投票功能。使用 Liveblocks 实现实时协作，Canvas API 处理绘图引擎。像素字体、8-bit 风格的图标和芯片音乐提示音让会议变得轻松有趣。",
+    "tools": ["Bolt", "Copilot"],
+    "category": "Tool",
+    "styles": ["Retro", "Brutalist"],
+    "imageUrl": "https://images.unsplash.com/photo-1553484771-37198c592203?w=600&h=400&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1553484771-37198c592203?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1533236897111-3e94666b2edf?w=800&h=600&fit=crop"
+    ],
+    "demoUrl": "https://retro-board.vercel.app",
+    "repoUrl": "https://github.com/vibelab/retro-board",
+    "author": "PixelPioneer",
+    "createdAt": "2026-02-18",
+    "featured": false
+  },
+  {
+    "id": "flow-saas",
+    "title": "Flow",
+    "description": "Brutalist 风格的项目管理 SaaS 工具",
+    "longDescription": "Flow 是一个采用粗野主义设计的项目管理工具。大胆的排版、高对比度的配色和原始的 UI 元素构成了独特的视觉风格。功能涵盖看板、甘特图和时间追踪。后端使用 tRPC 和 Prisma，前端状态管理采用 Jotai。粗犷的外表下是流畅的用户体验。",
+    "tools": ["Cursor", "Windsurf"],
+    "category": "SaaS",
+    "styles": ["Brutalist", "Dark Mode"],
+    "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&h=400&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1611224885993-ab7363d1f2a9?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=800&h=600&fit=crop"
+    ],
+    "demoUrl": "https://flow-saas.vercel.app",
+    "repoUrl": "https://github.com/vibelab/flow",
+    "author": "RawBuilder",
+    "createdAt": "2026-03-01",
+    "featured": true
+  },
+  {
+    "id": "hype-mobile",
+    "title": "Hype",
+    "description": "赛博朋克风格的健身追踪移动应用",
+    "longDescription": "Hype 是一款赛博朋克主题的健身追踪 PWA。霓虹绿的进度环、终端风格的数据面板和脉冲动效让健身数据变得极具未来感。支持运动记录、热量追踪和 AI 训练计划生成。使用 Capacitor 打包原生功能，离线存储使用 IndexedDB。",
+    "tools": ["Cursor", "Replit"],
+    "category": "Mobile App",
+    "styles": ["Cyberpunk", "Dark Mode"],
+    "imageUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?w=800&h=600&fit=crop"
+    ],
+    "demoUrl": "https://hype-fit.vercel.app",
+    "repoUrl": "https://github.com/vibelab/hype",
+    "author": "NeonAthlete",
+    "createdAt": "2026-03-15",
+    "featured": false
+  },
+  {
+    "id": "mosaic-ai",
+    "title": "Mosaic AI",
+    "description": "AI 图像拼贴生成器，Neumorphism 设计风格",
+    "longDescription": "Mosaic AI 是一个基于 AI 的图像拼贴生成工具。用户上传多张图片后，AI 自动分析并生成布局最佳的照片拼贴。采用新拟态设计风格，柔和的凸起和凹陷效果让 UI 宛如实体按键。使用 Cloudflare Workers 处理图片，Stable Diffusion API 提供背景生成。",
+    "tools": ["Claude", "Lovable"],
+    "category": "AI Application",
+    "styles": ["Neumorphism", "Minimal"],
+    "imageUrl": "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?w=600&h=400&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&h=600&fit=crop"
+    ],
+    "demoUrl": "https://mosaic-ai.vercel.app",
+    "repoUrl": "https://github.com/vibelab/mosaic-ai",
+    "author": "PixelAlchemist",
+    "createdAt": "2026-04-02",
     "featured": false
   }
 ]

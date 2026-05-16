@@ -43,6 +43,48 @@ export function filterProjects(filters: FilterState): Project[] {
   return result;
 }
 
+import { SortOption } from "@/types";
+
 export function getFeaturedProjects(): Project[] {
   return projects.filter((p) => p.featured);
+}
+
+export function sortProjects(
+  projectList: Project[],
+  sort: SortOption
+): Project[] {
+  const sorted = [...projectList];
+  switch (sort) {
+    case "newest":
+      return sorted.sort(
+        (a, b) =>
+          new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+      );
+    case "oldest":
+      return sorted.sort(
+        (a, b) =>
+          new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()
+      );
+    case "featured":
+      return sorted.sort((a, b) => {
+        if (a.featured === b.featured) return 0;
+        return a.featured ? -1 : 1;
+      });
+    case "alpha":
+      return sorted.sort((a, b) => a.title.localeCompare(b.title));
+    default:
+      return sorted;
+  }
+}
+
+export function paginateProjects(
+  projectList: Project[],
+  page: number,
+  pageSize: number
+): { projects: Project[]; hasMore: boolean } {
+  const end = page * pageSize;
+  return {
+    projects: projectList.slice(0, end),
+    hasMore: end < projectList.length,
+  };
 }

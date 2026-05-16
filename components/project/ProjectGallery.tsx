@@ -21,7 +21,7 @@ export default function ProjectGallery({ images, title }: ProjectGalleryProps) {
           alt={`${title} 截图 ${active + 1}`}
           fill
           className="object-cover"
-          sizes="60vw"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 60vw"
           priority
         />
       </div>

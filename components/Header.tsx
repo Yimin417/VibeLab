@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Header() {
   return (
@@ -20,6 +21,19 @@ export default function Header() {
             >
               作品展示
             </Link>
+            <Link
+              href="/about"
+              className="text-sm text-text-secondary transition-colors hover:text-text-primary"
+            >
+              关于
+            </Link>
+            <Link
+              href="/submit"
+              className="text-sm text-text-secondary transition-colors hover:text-text-primary"
+            >
+              提交作品
+            </Link>
+            <ThemeToggle />
           </nav>
         </div>
       </div>

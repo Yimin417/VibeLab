@@ -27,3 +27,5 @@ export interface FilterState {
   styles: Style[];
   search: string;
 }
+
+export type SortOption = "newest" | "oldest" | "featured" | "alpha";
