@@ -1,0 +1,7 @@
+{
+  "$schema": "https://raw.githubusercontent.com/opennextjs/opennextjs-cloudflare/main/packages/cloudflare/assets/wrangler.json",
+  "name": "vibecodingshow",
+  "compatibility_date": "2024-12-30",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": ".open-next/worker.js"
+}
